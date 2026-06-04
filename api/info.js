@@ -37,7 +37,7 @@ export default async function handler(req, res) {
   }
 
   // ── Environment ───────────────────────────────────────
-  const YT_API_URL = 'https://clipytpro.vercel.app/api/info?yt='; // ← your API URL
+  const YT_API_URL = 'https://clipytpro.vercel.app/api/info?yt'; // ← your API URL
 const YT_API_KEY = '';                                    // ← your key or leave empty
 
   if (!YT_API_URL) {
